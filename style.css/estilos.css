@@ -27,6 +27,34 @@ h1 {
     margin: 40px;
 }
 
+/* Título de cartita con fondo y recuadro */
+.cartita_titulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #B8CFCE; /* gris verde clarito */
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333446;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #7F8CAA; /* recuadro en celeste */
+}
+
+/* Título estilo h2 con fondo y recuadro */
+.cajatituloh2 {
+    font-size: 14px;
+    margin: 20px;
+    background-color: #7F8CAA; /* celeste */
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #EAEFEF;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #333446; /* recuadro en oscuro */
+}
+/* Lista de elementos */
 li {
     color: #333446;
     text-transform: capitalize;
@@ -35,6 +63,7 @@ li {
     margin: 0 10px;
 }
 
+/* Encabezado */
 header img {
     width: 80px;
     margin: 5px;
@@ -51,6 +80,7 @@ header a {
     margin-inline: 10px;
 }
 
+/* Contenido principal */
 main {
     padding: 40px;
 }
@@ -70,17 +100,13 @@ main {
     width: 100%;
 }
 
-.cartita_titulo {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
 .contenedor p {
     background-color: #EAEFEF;
     margin: 10px;
     padding: 10px;
 }
 
+/* Estructura de contenido */
 .cajatitulo {
     margin: 10px;
     padding: 10px;
@@ -90,11 +116,11 @@ main {
     display: flex;
     align-items: flex-start;
     background-color: #333446;
-    flex-wrap: nowrap; 
+    flex-wrap: nowrap;
     margin-top: 20px;
 }
 
-/* imagen y texto */
+/* Imagen y texto */
 .cajaimagen1 {
     display: flex;
     width: 30%;
@@ -115,7 +141,7 @@ main {
     margin: 20px;
 }
 
-
+/* Imagen */
 img {
     display: block;
     max-width: 100%;
@@ -123,6 +149,7 @@ img {
     object-fit: cover;
 }
 
+/* Responsive para pantallas chicas */
 @media screen and (max-width: 480px) {
     .caja {
         flex-wrap: wrap;
@@ -136,7 +163,6 @@ img {
         margin: 10px 0;
     }
 
-   
     .cajaimagen1,
     .cajaimagen2 {
         width: 100%;
