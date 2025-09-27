@@ -1,11 +1,10 @@
 // Variables de color
-$color-fondo-seccion: #222;        // Fondo oscuro para las secciones
-$color-fondo-titulo: #005f99;       // Fondo para los títulos de las secciones
-$color-letras-blancas: #ffffff;     // Letras blancas
-$color-azul: #03182c;               // Azul principal
-$color-azul-claro: #3399cc;         // Azul suave
+$color-fondo-seccion: #222;        
+$color-fondo-titulo: #005f99;       
+$color-letras-blancas: #ffffff;     
+$color-azul: #03182c;               
+$color-azul-claro: #3399cc;         
 
-// Estilos del contenedor principal
 .contenido-principal {
   padding: 30px;
   max-width: 1200px;
@@ -15,7 +14,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   color: #222;
 }
 
-// Título principal
 .titulo-principal {
   text-align: center;
   margin-bottom: 30px;
@@ -32,7 +30,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   }
 }
 
-// Sección con fondo oscuro y título con fondo
 .seccion {
   background-color: $color-fondo-seccion;
   padding: 20px;
@@ -41,7 +38,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   margin-bottom: 30px;
 }
 
-// Título de sección
 .titulo-seccion {
   text-align: center;
   margin-bottom: 20px;
@@ -58,7 +54,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   }
 }
 
-// Tarjeta con imagen a la izquierda y texto a la derecha
 .tarjeta {
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +70,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   }
 }
 
-// La imagen que queda a la izquierda
 .imagen {
   flex: 0 0 300px;
   max-width: 300px;
@@ -90,7 +84,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   }
 }
 
-// Texto de los párrafos
 .texto {
   flex: 1;
   font-size: 1rem;
@@ -99,7 +92,6 @@ $color-azul-claro: #3399cc;         // Azul suave
   text-align: justify;
 }
 
-// Responsivo en pantallas menores a 768px
 @media (max-width: 768px) {
   .tarjeta {
     flex-direction: column;

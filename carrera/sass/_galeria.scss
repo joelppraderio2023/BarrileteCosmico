@@ -4,7 +4,7 @@ $color-fondo-titulo: #005f99;
 $color-letras-blancas: #ffffff;
 $color-azul-hover: #007bff;
 
-// Estilos principales
+
 :root {
   --color-fondo: #222;
   --color-fondo-titulo: #005f99;
@@ -18,7 +18,7 @@ $color-azul-hover: #007bff;
   margin: 0 auto;
   font-family: 'Arial', sans-serif;
   background-color: #f0f4f8;
-  color: #fff; // Ajuste si quieres letras blancas en toda la sección
+  color: #fff; 
 }
 
 .titulo-principal {
@@ -44,7 +44,7 @@ $color-azul-hover: #007bff;
 }
 
 .video-card {
-  background: $color-fondo; // oscuro gris
+  background: $color-fondo; 
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -60,7 +60,7 @@ $color-azul-hover: #007bff;
 }
 
 .video-titulo {
-  color: #fff; // o usa: var(--color-letras-blancas);
+  color: #fff; 
   background-color: $color-fondo-titulo;
   padding: 8px 12px;
   border-radius: 6px;
